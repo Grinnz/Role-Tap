@@ -68,4 +68,4 @@ This is free software, licensed under:
 
 =head1 SEE ALSO
 
-L<Object::Tap>
+L<Object::Tap>, L<MooX::ChainedAttributes>, L<MooseX::Attribute::Chained>
