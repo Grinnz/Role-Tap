@@ -19,7 +19,7 @@ sub tests {
   $self->{tests} = shift;
 }
 
-sub more_tests { shift->{tests} += shift // 1 }
+sub more_tests { shift->{tests} += shift || 1 }
 
 package main;
 use Test::More;
