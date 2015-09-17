@@ -1,16 +1,4 @@
-package Role::Tap;
-
-use Role::Tiny;
-
-our $VERSION = '0.001';
-
-sub tap {
-  my ($self, $cb) = (shift, shift);
-  $_->$cb(@_) for $self;
-  return $self;
-}
-
-1;
+=pod
 
 =head1 NAME
 
@@ -69,3 +57,5 @@ This is free software, licensed under:
 =head1 SEE ALSO
 
 L<Object::Tap>
+
+=cut
